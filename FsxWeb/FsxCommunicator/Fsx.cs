@@ -1,4 +1,4 @@
-﻿namespace FsxConnector
+﻿namespace FsxCommunicator
 {
     using Model;
 
@@ -6,7 +6,7 @@
     {
         public PlaneData GetCurrentPlaneData()
         {
-            var planeData = new PlaneData 
+            var planeData = new PlaneData
             {
                 Location = new Location
                 {

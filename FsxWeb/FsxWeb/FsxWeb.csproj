@@ -225,8 +225,8 @@
     <None Include="Project_Readme.html" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\FsxConnector\FsxCommunicator.csproj">
-      <Project>{70911aa2-1524-4971-9165-15616eb96471}</Project>
+    <ProjectReference Include="..\FsxCommunicator\FsxCommunicator.csproj">
+      <Project>{94f10636-aa2a-42d6-8f22-a40e77ec5d65}</Project>
       <Name>FsxCommunicator</Name>
     </ProjectReference>
   </ItemGroup>

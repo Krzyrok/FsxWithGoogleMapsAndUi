@@ -1,4 +1,4 @@
-﻿namespace FsxConnector.Model
+﻿namespace FsxCommunicator.Model
 {
     using System.Runtime.Serialization;
 

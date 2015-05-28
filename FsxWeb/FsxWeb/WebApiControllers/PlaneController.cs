@@ -1,7 +1,7 @@
 ﻿namespace FsxWeb.WebApiControllers
 {
     using System.Web.Http;
-    using FsxConnector;
+    using FsxCommunicator;
 
     public class PlaneController : ApiController
     {

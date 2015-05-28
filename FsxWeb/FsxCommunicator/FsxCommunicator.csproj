@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{70911AA2-1524-4971-9165-15616EB96471}</ProjectGuid>
+    <ProjectGuid>{94F10636-AA2A-42D6-8F22-A40E77EC5D65}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>FsxConnector</RootNamespace>
-    <AssemblyName>FsxConnector</AssemblyName>
+    <RootNamespace>FsxCommunicator</RootNamespace>
+    <AssemblyName>FsxCommunicator</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
