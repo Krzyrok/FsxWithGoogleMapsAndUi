@@ -9,6 +9,7 @@
         {
             var bundle = new ScriptBundle("~/Content/js")
                 .Include("~/Content/libs/angular/angular.js")
+                .Include("//maps.googleapis.com/maps/api/js?sensor=false")
                 .Include("~/Scripts/app.js");
             bundles.Add(bundle);
 
