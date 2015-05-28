@@ -178,6 +178,7 @@
     <Content Include="Content\libs\lodash\dist\lodash.underscore.js" />
     <Content Include="Content\libs\lodash\dist\lodash.underscore.min.js" />
     <Content Include="Content\libs\lodash\LICENSE.txt" />
+    <Content Include="Content\libs\maps.googleapis.com\maps.googleapis.com.js" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
