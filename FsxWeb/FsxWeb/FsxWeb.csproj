@@ -159,6 +159,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\css\Site.css" />
+    <Content Include="Content\libs\angular\angular-csp.css" />
+    <Content Include="Content\libs\angular\angular.js" />
+    <Content Include="Content\libs\angular\angular.min.js" />
+    <Content Include="Content\libs\angular\index.js" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -179,7 +183,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Content\libs\" />
     <Folder Include="Scripts\" />
   </ItemGroup>
   <ItemGroup>
@@ -187,6 +190,12 @@
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="packages.config" />
+    <Content Include="Content\libs\angular\.bower.json" />
+    <Content Include="Content\libs\angular\angular.min.js.gzip" />
+    <Content Include="Content\libs\angular\angular.min.js.map" />
+    <Content Include="Content\libs\angular\bower.json" />
+    <Content Include="Content\libs\angular\package.json" />
+    <Content Include="Content\libs\angular\README.md" />
     <None Include="Project_Readme.html" />
   </ItemGroup>
   <ItemGroup>
