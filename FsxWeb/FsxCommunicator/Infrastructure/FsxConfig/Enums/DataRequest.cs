@@ -1,6 +1,6 @@
-﻿namespace FsxWebApi.Infrastructure.FsxConfig.Enums
+﻿namespace FsxCommunicator.Infrastructure.FsxConfig.Enums
 {
-    enum DataRequest
+    internal enum DataRequest
     {
         FromBrowser
     }

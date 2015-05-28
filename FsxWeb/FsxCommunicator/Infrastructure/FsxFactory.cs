@@ -3,12 +3,12 @@
     using System.Diagnostics;
     using System.Runtime.InteropServices;
     using FsxConfig;
-    using FsxWebApi.Infrastructure.FsxConfig.Enums;
+    using FsxConfig.Enums;
     using Microsoft.FlightSimulator.SimConnect;
 
-    public static class FsxFactory
+    internal static class FsxFactory
     {
-        public static SimConnect GetSimConnectObject(FsxCommunicator communicator)
+        internal static SimConnect GetSimConnectObject(FsxCommunicator communicator)
         {
             try
             {

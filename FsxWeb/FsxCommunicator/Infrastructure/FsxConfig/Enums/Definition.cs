@@ -1,6 +1,6 @@
-﻿namespace FsxWebApi.Infrastructure.FsxConfig.Enums
+﻿namespace FsxCommunicator.Infrastructure.FsxConfig.Enums
 {
-    enum Definition
+    internal enum Definition
     {
         Plane
     }

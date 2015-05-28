@@ -1,13 +1,13 @@
 ﻿namespace FsxCommunicator.Infrastructure
 {
     using System;
-    using FsxWebApi.Infrastructure.FsxConfig.Enums;
     using FsxConfig;
+    using FsxConfig.Enums;
     using Interfaces;
     using Model;
     using Microsoft.FlightSimulator.SimConnect;
 
-    public class FsxCommunicator
+    internal class FsxCommunicator
     {
         private readonly ILogger _logger;
         // SimConnect object
@@ -15,12 +15,12 @@
         private bool _receivedMessage = false;
         private PlaneData _planeData;
 
-        public FsxCommunicator(ILogger logger)
+        internal FsxCommunicator(ILogger logger)
         {
             _logger = logger;
         }
 
-        public PlaneData GetPlaneData()
+        internal PlaneData GetPlaneData()
         {
             if (!ConnectToFsxIfNecessary())
             {
@@ -47,7 +47,7 @@
             return _planeData;
         }
 
-        public void Fsx_ReceiveDataEventHandler(SimConnect sender, SIMCONNECT_RECV_SIMOBJECT_DATA_BYTYPE fsxData)
+        internal void Fsx_ReceiveDataEventHandler(SimConnect sender, SIMCONNECT_RECV_SIMOBJECT_DATA_BYTYPE fsxData)
         {
 
             switch ((DataRequest)fsxData.dwRequestID)
@@ -75,14 +75,14 @@
 
 
         // Event handler for closing FSX by user
-        public void Fsx_UserClosedFsxEventHandler(SimConnect sender, SIMCONNECT_RECV data)
+        internal void Fsx_UserClosedFsxEventHandler(SimConnect sender, SIMCONNECT_RECV data)
         {
             CloseFsxConnection();
             _logger.Log("User has closed FSX.");
         }
 
         // Event handler for exceptions from FSX
-        public void Fsx_ExceptionEventHandler(SimConnect sender, SIMCONNECT_RECV_EXCEPTION data)
+        internal void Fsx_ExceptionEventHandler(SimConnect sender, SIMCONNECT_RECV_EXCEPTION data)
         {
             // handle exceptions (save to file/display message)
             _logger.Log("Error during connection with FSX.");
