@@ -1,0 +1,12 @@
+{
+  "name": "FsxVisualizer",
+  "version": "0.5",
+  "homepage": "https://github.com/Krzyrok/FsxWithGoogleMapsAndUi",
+  "authors": [
+    "Krzyrok <krzyrok@gmail.com>"
+  ],
+  "private": true,
+  "dependencies": {
+    "angular": "~1.4.0"
+  }
+}
