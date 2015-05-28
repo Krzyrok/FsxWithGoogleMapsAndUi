@@ -167,6 +167,8 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="ApplicationInsights.config" />
+    <Content Include="Scripts\app.js" />
+    <Content Include="Scripts\home\homeController.js" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -183,7 +185,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Scripts\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />

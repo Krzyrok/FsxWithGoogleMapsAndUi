@@ -8,11 +8,17 @@
         public static void RegisterBundles(BundleCollection bundles)
         {
             var bundle = new ScriptBundle("~/Content/js")
-                .Include("~/Content/libs/angular/angular.js");
+                .Include("~/Content/libs/angular/angular.js")
+                .Include("~/Scripts/app.js");
             bundles.Add(bundle);
 
-            bundles.Add(new StyleBundle("~/Content/css").Include(
-                      "~/Content/css/site.css"));
+            bundle = new StyleBundle("~/Content/css")
+                .Include("~/Content/css/site.css");
+            bundles.Add(bundle);
+
+            bundle = new ScriptBundle("~/functionality/home")
+                .Include("~/Scripts/home/homeController.js");
+            bundles.Add(bundle);
         }
     }
 }
