@@ -1,26 +1,21 @@
 ﻿namespace FsxCommunicator
 {
+    using Infrastructure;
     using Interfaces;
     using Model;
 
     public class Fsx
     {
-        private readonly ILogger _logger;
+        private readonly FsxCommunicator _fsxCommunicator;
 
         public Fsx(ILogger logger)
         {
-            _logger = logger;
+            _fsxCommunicator = new FsxCommunicator(logger);
         }
 
         public PlaneData GetCurrentPlaneData()
         {
-            var planeData = new PlaneData
-            {
-                Location = new Location
-                {
-                    Altitude = 1.0
-                }
-            };
+            var planeData = _fsxCommunicator.GetPlaneData();
 
             return planeData;
         }
