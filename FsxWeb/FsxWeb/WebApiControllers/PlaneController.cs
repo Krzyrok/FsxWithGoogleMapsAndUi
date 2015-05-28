@@ -1,16 +1,16 @@
 ﻿namespace FsxWeb.WebApiControllers
 {
     using System.Web.Http;
+    using FsxConnector;
 
     public class PlaneController : ApiController
     {
-        //private readonly FsxManager _fsxManager = new FsxManager();
+        private readonly Fsx _fsx = new Fsx();
 
         // GET: api/Plane
         public IHttpActionResult Get()
         {
-            //var planeData = _fsxManager.GetCurrentPlaneData();
-            var planeData = "Data";
+            var planeData = _fsx.GetCurrentPlaneData();
 
             if (planeData == null)
             {

@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FsxWeb", "FsxWeb\FsxWeb.csproj", "{6E0E41E6-23E8-4280-B425-1378BE1E2182}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FsxCommunicator", "FsxConnector\FsxCommunicator.csproj", "{70911AA2-1524-4971-9165-15616EB96471}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{6E0E41E6-23E8-4280-B425-1378BE1E2182}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6E0E41E6-23E8-4280-B425-1378BE1E2182}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6E0E41E6-23E8-4280-B425-1378BE1E2182}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70911AA2-1524-4971-9165-15616EB96471}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70911AA2-1524-4971-9165-15616EB96471}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70911AA2-1524-4971-9165-15616EB96471}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70911AA2-1524-4971-9165-15616EB96471}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
