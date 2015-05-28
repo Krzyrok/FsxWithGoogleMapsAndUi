@@ -10,11 +10,10 @@
     function PlaneController(planeService, $interval) {
         var vm = this;
 
-        // map zoom
-        vm.map = {};
-        vm.map.zoom = { zoom: 13 };
+        vm.map = { zoom: 13 };
 
-        // marker settings
+        vm.planeData = {};
+
         vm.marker = {
             id: 1,
             options: {
@@ -26,9 +25,8 @@
         _acitvate();
 
         function _acitvate() {
-            $interval(_getAndUpdatePlaneDta, 500);
+            $interval(_getAndUpdatePlaneDta, 1000);
         }
-
 
         function _getAndUpdatePlaneDta() {
             planeService.getPlaneData()
