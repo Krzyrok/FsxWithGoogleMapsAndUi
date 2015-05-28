@@ -159,7 +159,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\css\Site.css" />
-    <Content Include="Content\icons\planeIcon.png" />
     <Content Include="Content\libs\angular-google-maps\dist\angular-google-maps-street-view.js" />
     <Content Include="Content\libs\angular-google-maps\dist\angular-google-maps-street-view.min.js" />
     <Content Include="Content\libs\angular-google-maps\dist\angular-google-maps-street-view_dev_mapped.js" />

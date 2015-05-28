@@ -24,8 +24,7 @@
             id: 1,
             options: {
                 draggable: false
-            },
-            icon: '../../Content/icons/planeIcon.png'
+            }
         };
 
         _acitvate();
