@@ -2,10 +2,16 @@
 {
     using System.Web.Http;
     using FsxCommunicator;
+    using Logging;
 
     public class PlaneController : ApiController
     {
-        private readonly Fsx _fsx = new Fsx();
+        private readonly Fsx _fsx;
+
+        public PlaneController()
+        {
+            _fsx = new Fsx(new Logger());
+        }
 
         // GET: api/Plane
         public IHttpActionResult Get()
