@@ -159,10 +159,25 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\css\Site.css" />
+    <Content Include="Content\libs\angular-google-maps\dist\angular-google-maps-street-view.js" />
+    <Content Include="Content\libs\angular-google-maps\dist\angular-google-maps-street-view.min.js" />
+    <Content Include="Content\libs\angular-google-maps\dist\angular-google-maps-street-view_dev_mapped.js" />
+    <Content Include="Content\libs\angular-google-maps\dist\angular-google-maps-street-view_dev_mapped.min.js" />
+    <Content Include="Content\libs\angular-google-maps\dist\angular-google-maps.js" />
+    <Content Include="Content\libs\angular-google-maps\dist\angular-google-maps.min.js" />
+    <Content Include="Content\libs\angular-google-maps\dist\angular-google-maps_dev_mapped.js" />
+    <Content Include="Content\libs\angular-google-maps\dist\angular-google-maps_dev_mapped.min.js" />
     <Content Include="Content\libs\angular\angular-csp.css" />
     <Content Include="Content\libs\angular\angular.js" />
     <Content Include="Content\libs\angular\angular.min.js" />
     <Content Include="Content\libs\angular\index.js" />
+    <Content Include="Content\libs\lodash\dist\lodash.compat.js" />
+    <Content Include="Content\libs\lodash\dist\lodash.compat.min.js" />
+    <Content Include="Content\libs\lodash\dist\lodash.js" />
+    <Content Include="Content\libs\lodash\dist\lodash.min.js" />
+    <Content Include="Content\libs\lodash\dist\lodash.underscore.js" />
+    <Content Include="Content\libs\lodash\dist\lodash.underscore.min.js" />
+    <Content Include="Content\libs\lodash\LICENSE.txt" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -198,6 +213,24 @@
     <Content Include="Content\libs\angular\bower.json" />
     <Content Include="Content\libs\angular\package.json" />
     <Content Include="Content\libs\angular\README.md" />
+    <Content Include="Content\libs\angular-google-maps\.bower.json" />
+    <Content Include="Content\libs\angular-google-maps\.travis.yml" />
+    <Content Include="Content\libs\angular-google-maps\bower.json" />
+    <Content Include="Content\libs\angular-google-maps\circle.yml" />
+    <Content Include="Content\libs\angular-google-maps\dist\angular-google-maps-street-view_dev_mapped.js.map" />
+    <Content Include="Content\libs\angular-google-maps\dist\angular-google-maps-street-view_dev_mapped.min.js.map" />
+    <Content Include="Content\libs\angular-google-maps\dist\angular-google-maps_dev_mapped.js.map" />
+    <Content Include="Content\libs\angular-google-maps\dist\angular-google-maps_dev_mapped.min.js.map" />
+    <Content Include="Content\libs\angular-google-maps\Gruntfile.coffee" />
+    <Content Include="Content\libs\angular-google-maps\spec\coffee\bootstrap.coffee" />
+    <Content Include="Content\libs\angular-google-maps\spec\coffee\helpers\google-api-mock.coffee" />
+    <Content Include="Content\libs\angular-google-maps\spec\coffee\helpers\google-map-spec-controller.coffee" />
+    <Content Include="Content\libs\angular-google-maps\spec\coffee\helpers\helper.mockEvents.spec.coffee" />
+    <Content Include="Content\libs\angular-google-maps\spec\coffee\helpers\helper.polyline.spec.coffee" />
+    <Content Include="Content\libs\angular-google-maps\spec\coffee\helpers\initiator.coffee" />
+    <Content Include="Content\libs\angular-google-maps\spec\js\.keep" />
+    <Content Include="Content\libs\lodash\.bower.json" />
+    <Content Include="Content\libs\lodash\bower.json" />
     <None Include="Project_Readme.html" />
   </ItemGroup>
   <ItemGroup>
