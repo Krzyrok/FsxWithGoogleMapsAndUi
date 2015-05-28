@@ -12,14 +12,20 @@
 
         vm.map = { zoom: 13 };
 
-        vm.planeData = {};
+        vm.planeData = {
+            location:
+                {
+                    latitude: 0,
+                    longitude: 0
+                }
+        };
 
         vm.marker = {
             id: 1,
             options: {
                 draggable: false
             },
-            icon: "Content/icons/planeIcon.png"
+            icon: '../../Content/icons/planeIcon.png'
         };
 
         _acitvate();
