@@ -17,7 +17,8 @@
             bundles.Add(bundle);
 
             bundle = new ScriptBundle("~/functionality/home")
-                .Include("~/Scripts/home/homeController.js");
+                .Include("~/Scripts/plane/planeController.js")
+                .Include("~/Scripts/plane/planeService.js");
             bundles.Add(bundle);
         }
     }

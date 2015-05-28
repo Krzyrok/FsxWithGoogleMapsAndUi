@@ -168,7 +168,8 @@
     <Content Include="Global.asax" />
     <Content Include="ApplicationInsights.config" />
     <Content Include="Scripts\app.js" />
-    <Content Include="Scripts\home\homeController.js" />
+    <Content Include="Scripts\plane\planeController.js" />
+    <Content Include="Scripts\plane\planeService.js" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
