@@ -9,7 +9,7 @@
         {
             var bundle = new ScriptBundle("~/Content/js")
                 .Include("~/Content/libs/angular/angular.js")
-                .Include("~/maps.googleapis.com/maps.googleapis.com.js") // - downloaded from //maps.googleapis.com/maps/api/js?sensor=false
+                .Include("~/Content/libs/maps.googleapis.com/maps.googleapis.com.js") // - downloaded from //maps.googleapis.com/maps/api/js?sensor=false
                 .Include("~/Content/libs/lodash/dist/lodash.js")
                 .Include("~/Content/libs/angular-google-maps/dist/angular-google-maps.js")
                 .Include("~/Scripts/app.js");
