@@ -8,7 +8,11 @@
     PlaneController.$inject = ['planeService', '$scope'];
 
     function PlaneController(planeService, $scope) {
-        
+        var vm = this;
+
+
+
+
     }
 
 })(window.angular)
