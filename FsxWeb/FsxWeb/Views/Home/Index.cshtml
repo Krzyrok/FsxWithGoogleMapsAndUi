@@ -1,4 +1,13 @@
-﻿<div>
+﻿<div ng-controller="HomeController as homeController">
+    <ui-gmap-google-map center='data.location' zoom='map.zoom'>
+        <ui-gmap-marker idkey='marker.id'
+                        coords='data.location'
+                        options='marker.options'
+                        events='marker.events'
+                        icon='marker.icon'>
+        </ui-gmap-marker>
+    </ui-gmap-google-map>
+
 </div>
 
 @section scripts
