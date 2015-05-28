@@ -30,6 +30,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.FlightSimulator.SimConnect, Version=10.0.61259.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Windows\assembly\GAC_32\Microsoft.FlightSimulator.SimConnect\10.0.61259.0__31bf3856ad364e35\Microsoft.FlightSimulator.SimConnect.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Runtime.Serialization" />
@@ -41,6 +45,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Fsx.cs" />
+    <Compile Include="Infrastructure\FsxCommunicator.cs" />
+    <Compile Include="Infrastructure\FsxConfig\Constants.cs" />
+    <Compile Include="Infrastructure\FsxConfig\Enums\DataRequest.cs" />
+    <Compile Include="Infrastructure\FsxConfig\Enums\Definition.cs" />
+    <Compile Include="Infrastructure\FsxConfig\LocationStruct.cs" />
+    <Compile Include="Infrastructure\FsxConfig\PlaneDataStruct.cs" />
+    <Compile Include="Infrastructure\FsxFactory.cs" />
+    <Compile Include="Interfaces\ILogger.cs" />
     <Compile Include="Model\Location.cs" />
     <Compile Include="Model\PlaneData.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
