@@ -10,7 +10,7 @@
     function PlaneController(planeService, $interval) {
         var vm = this;
 
-        vm.map = { zoom: 13 };
+        vm.map = { zoom: 15 };
 
         vm.planeData = {
             location:
@@ -23,17 +23,18 @@
         vm.marker = {
             id: 1,
             options: {
-                draggable: false
+                draggable: false,
+                icon: 'Content/images/planeIcon.png'
             }
         };
 
         _acitvate();
 
         function _acitvate() {
-            $interval(_getAndUpdatePlaneDta, 1000);
+            $interval(_getAndUpdatePlaneData, 1000);
         }
 
-        function _getAndUpdatePlaneDta() {
+        function _getAndUpdatePlaneData() {
             planeService.getPlaneData()
                 .success(function (planeData) {
                     vm.planeData = planeData;

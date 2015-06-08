@@ -159,6 +159,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\css\Site.css" />
+    <Content Include="Content\images\planeIcon.png" />
     <Content Include="Content\libs\angular-google-maps\dist\angular-google-maps-street-view.js" />
     <Content Include="Content\libs\angular-google-maps\dist\angular-google-maps-street-view.min.js" />
     <Content Include="Content\libs\angular-google-maps\dist\angular-google-maps-street-view_dev_mapped.js" />
@@ -178,14 +179,13 @@
     <Content Include="Content\libs\lodash\dist\lodash.underscore.js" />
     <Content Include="Content\libs\lodash\dist\lodash.underscore.min.js" />
     <Content Include="Content\libs\lodash\LICENSE.txt" />
-    <Content Include="Content\libs\maps.googleapis.com\maps.googleapis.com.js" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="ApplicationInsights.config" />
     <Content Include="Scripts\app.js" />
-    <Content Include="Scripts\plane\planeController.js" />
-    <Content Include="Scripts\plane\planeService.js" />
+    <Content Include="Scripts\Plane\planeController.js" />
+    <Content Include="Scripts\Plane\planeService.js" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
