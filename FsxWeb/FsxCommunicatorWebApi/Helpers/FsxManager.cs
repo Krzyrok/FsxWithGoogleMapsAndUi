@@ -13,7 +13,7 @@
             _fsxCommunicator = new FsxCommunicator(logger);
         }
 
-        internal PlaneData GetCurrentPlaneData()
+        internal PlaneData GetPlaneData()
         {
             var planeData = _fsxCommunicator.GetPlaneData();
 

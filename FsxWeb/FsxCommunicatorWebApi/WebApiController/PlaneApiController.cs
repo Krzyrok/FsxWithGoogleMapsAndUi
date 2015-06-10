@@ -15,7 +15,7 @@
         // GET: api/Plane
         public IHttpActionResult Get()
         {
-            var planeData = _fsxManager.GetCurrentPlaneData();
+            var planeData = _fsxManager.GetPlaneData();
 
             if (planeData == null)
             {

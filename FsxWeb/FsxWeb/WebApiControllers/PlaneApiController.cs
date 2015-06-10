@@ -6,21 +6,20 @@
     using Infrastructure;
     using Logging;
 
-    public class PlaneController : ApiController
+    public class PlaneApiController : ApiController
     {
         private readonly Fsx _fsx;
         private readonly FsxWebApi _fsxWebApi;
 
-        public PlaneController()
+        public PlaneApiController()
         {
             _fsx = new Fsx(new Logger());
             _fsxWebApi = new FsxWebApi();
         }
 
-        // GET: api/Plane
+        [Route("api/plane")]
         public async Task<IHttpActionResult> Get()
         {
-            //var planeData = new PlaneData {Location = new Location {Latitude = 50.0, Longitude = 50.0}};
             var planeData = await _fsxWebApi.GetPlaneData();
 
             if (planeData == null)
