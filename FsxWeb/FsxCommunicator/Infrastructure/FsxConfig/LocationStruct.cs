@@ -10,6 +10,5 @@
     {
         internal double Latitude;
         internal double Longitude;
-        internal double Altitude;
     }
 }

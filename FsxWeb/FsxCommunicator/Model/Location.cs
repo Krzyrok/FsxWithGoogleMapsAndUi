@@ -10,8 +10,5 @@
 
         [DataMember(Name = "longitude")]
         public double Longitude { get; set; }
-
-        [DataMember(Name = "altitude")]
-        public double Altitude { get; set; }
     }
 }

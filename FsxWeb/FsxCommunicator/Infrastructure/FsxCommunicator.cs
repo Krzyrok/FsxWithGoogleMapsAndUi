@@ -60,8 +60,7 @@
                         Location = new Location
                         {
                             Latitude = userPlaneData.Location.Latitude,
-                            Longitude = userPlaneData.Location.Longitude,
-                            Altitude = userPlaneData.Location.Altitude
+                            Longitude = userPlaneData.Location.Longitude
                         }
                     };
 
