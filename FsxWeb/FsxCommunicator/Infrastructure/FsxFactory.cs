@@ -15,7 +15,7 @@
                 var mainWindowHandle = Process.GetCurrentProcess().MainWindowHandle;
 
                 // the constructor
-                var simconnect = new SimConnect("User Requests",  mainWindowHandle, Constants.WmUserSimconnect, null, 0);
+                var simconnect = new SimConnect("User Requests", mainWindowHandle, Constants.WmUserSimconnect, null, 0);
 
                 InitializeSimConnect(simconnect, communicator);
 
