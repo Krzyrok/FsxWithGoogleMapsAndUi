@@ -233,10 +233,11 @@
     <Content Include="Content\libs\lodash\.bower.json" />
     <Content Include="Content\libs\lodash\bower.json" />
     <None Include="Project_Readme.html" />
+    <None Include="Properties\PublishProfiles\MY local IIS.pubxml" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\FsxCommunicator\FsxCommunicator.csproj">
-      <Project>{94f10636-aa2a-42d6-8f22-a40e77ec5d65}</Project>
+      <Project>{94F10636-AA2A-42D6-8F22-A40E77EC5D65}</Project>
       <Name>FsxCommunicator</Name>
     </ProjectReference>
   </ItemGroup>
@@ -252,6 +253,7 @@
     <PlatformTarget>x86</PlatformTarget>
     <ErrorReport>prompt</ErrorReport>
     <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <FilesToIncludeForPublish>AllFilesInTheProject</FilesToIncludeForPublish>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
     <OutputPath>bin\</OutputPath>
@@ -276,7 +278,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>1177</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:4426/</IISUrl>
+          <IISUrl>http://localhost:1177/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
