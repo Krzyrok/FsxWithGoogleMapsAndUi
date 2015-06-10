@@ -153,6 +153,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Infrastructure\FsxWebApi.cs" />
     <Compile Include="Logging\Logger.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="WebApiControllers\PlaneController.cs" />
@@ -233,9 +234,12 @@
     <Content Include="Content\libs\lodash\.bower.json" />
     <Content Include="Content\libs\lodash\bower.json" />
     <None Include="Project_Readme.html" />
-    <None Include="Properties\PublishProfiles\MY local IIS.pubxml" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\FsxCommunicatorWebApi\FsxCommunicatorWebApi.csproj">
+      <Project>{49bdf6eb-ca11-4f2c-b873-0958334cc1ab}</Project>
+      <Name>FsxCommunicatorWebApi</Name>
+    </ProjectReference>
     <ProjectReference Include="..\FsxCommunicator\FsxCommunicator.csproj">
       <Project>{94F10636-AA2A-42D6-8F22-A40E77EC5D65}</Project>
       <Name>FsxCommunicator</Name>
